@@ -13,9 +13,9 @@ Please look in crawler.yml for configuration
 
 Example crawler.yml file:
 
-  config:
-    standard_uri: http://www.yoursite.com/
-    exclude_regex: \?*?(sort=|backlink=|SID=|.css)
+    config:
+      standard_uri: http://www.yoursite.com/
+      exclude_regex: \?*?(sort=|backlink=|SID=|.css)
 
 
 How to create a sitemap with this crawler?
@@ -27,9 +27,9 @@ config.xml with urllist support:
 
 Just take a coffee and run the following commands on your shell:
 
-  ruby crawler.rb
-  ruby crawler.rb urllist > urllist.txt # < this generates the urllist
-  python sitemap_gen.py --config=config.xml
+    ruby crawler.rb
+    ruby crawler.rb urllist > urllist.txt # < this generates the urllist
+    python sitemap_gen.py --config=config.xml
 
 Now urllist sitemap should be generated and google 
 notified about this update. Have fun!
