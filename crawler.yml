@@ -1,0 +1,3 @@
+config:
+  standard_uri: http://www.yoursite.com/
+  exclude_regex: \?*?(sort=|backlink=|SID=|.css)
