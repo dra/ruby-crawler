@@ -3,7 +3,7 @@
 # ruby-site-crawler v0.4
 # 
 # @version  $Id$
-# @author   Nico Puhlmann <nico@puhlmann.com>
+# @author   Nico Puhlmann <nico.puhlmann@gmail.com>
 #
 # This simple crawler crawls a website and stores
 # all internal linked urls in a sqlite database.
